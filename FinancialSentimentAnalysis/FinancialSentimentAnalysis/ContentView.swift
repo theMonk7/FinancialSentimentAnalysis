@@ -30,6 +30,7 @@ struct ContentView: View {
             TextField(text: $text) {
                 Text("Enter the text")
             }
+            .textFieldStyle(.roundedBorder)
             HStack {
                 Text("Sentiment")
                 Spacer()
